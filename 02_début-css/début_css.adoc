@@ -1,6 +1,7 @@
 = Introduction à CSS3
 
-Basé sur cette vidéo: video::iSWjmVcfQGg[youtube]
+Basé sur cette vidéo:
+video::iSWjmVcfQGg[youtube]
 https://github.com/cheroliv/html-css-codebase/tree/master/01_d%C3%A9but-css[repository]
 
 == Table des matieres
