@@ -2,7 +2,7 @@
 
 Basé sur cette vidéo: https://youtu.be/iSWjmVcfQGg[Apprendre CSS de zéro]
 
-https://github.com/cheroliv/html-css-codebase/tree/master/01_d%C3%A9but-css[repository]
+https://github.com/cheroliv/html-css-codebase/tree/master/01_d%C3%A9but-css[github repository]
 
 == Table des matieres
 
