@@ -1,7 +1,6 @@
 = Début de HTML
 
-Basé sur cette vidéo: +
-video::qsbkZ7gIKnc[youtube]
+Basé sur cette vidéo: https://youtu.be/qsbkZ7gIKnc[Apprendre HTML de zéro]
 
 https://github.com/cheroliv/html-css-codebase/tree/master/01_d%C3%A9but-html[repository]
 
