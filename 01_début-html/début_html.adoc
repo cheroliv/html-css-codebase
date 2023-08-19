@@ -1,19 +1,11 @@
 = Début de HTML
 
-
-<<document2#adoc-ma-section,Ma Section dans le Document 2>>
-
 Basé sur cette vidéo: https://youtu.be/qsbkZ7gIKnc[Apprendre HTML de zéro]
-
-
-
-[#adoc-ma-section]
-== Ma Section
-
 
 https://github.com/cheroliv/html-css-codebase/tree/master/01_d%C3%A9but-html[github repository]
 
-== Code source memo
+[#début_html]
+== Code source mémo
 
 index.html
 [source,html]
