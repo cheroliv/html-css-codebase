@@ -1,8 +1,11 @@
 = Introduction à HTML & CSS3
 
+https://cheroliv.github.io/blog/2023/0061_memo_html_post.html[Mémo html, window = "_blank"] +
+https://cheroliv.github.io/blog/2023/0062_memo_css_post.html[Mémo css, window = "_blank"] +
+
 [#toc]
 == Table des matieres
 
 * link:01_début-html/début_html.adoc#début_html[Début HTML]
-* Début CSS
+* link:02_début-css/début_css.adoc#début_css[Début CSS]
 * Intermédiaire HTML & CSS

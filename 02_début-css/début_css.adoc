@@ -1,13 +1,12 @@
-= Introduction à CSS3
+= Début CSS
+
+link:../README.adoc#toc[Table des matieres] 
 
 Basé sur cette vidéo: https://youtu.be/iSWjmVcfQGg[Apprendre CSS de zéro]
 
 https://github.com/cheroliv/html-css-codebase/tree/master/01_d%C3%A9but-css[github repository]
 
-== Table des matieres
-
-* Début CSS
-
+[#début_css]
 . Intro & Mise en place
 . Les textes
 . Background
@@ -16,7 +15,3 @@ https://github.com/cheroliv/html-css-codebase/tree/master/01_d%C3%A9but-css[gith
 . Grid
 . Position absolute
 . Le responsive
-. Débug & Conclusion
-
-//[[next section]] [[toc]] [[next section]]
-
