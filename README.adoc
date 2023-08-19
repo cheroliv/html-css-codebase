@@ -8,4 +8,4 @@ ifdef::env-name[:relfilesuffix: .adoc]
 * Intermédiaire HTML & CSS
 
 
-link:01_début-html/début_html{relfilesuffix}[Texte du lien]
+link:01_début-html/début_html.adoc[Texte du lien]
