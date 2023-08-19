@@ -3,9 +3,6 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 == Table des matieres
 
-* Début HTML
+* link:01_début-html/début_html.adoc#début_html[Début HTML]
 * Début CSS
 * Intermédiaire HTML & CSS
-
-
-link:01_début-html/début_html.adoc#début_html[Début HTML]
