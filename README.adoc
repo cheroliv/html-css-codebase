@@ -1,5 +1,4 @@
 = Introduction à HTML & CSS3
-ifdef::env-name[:relfilesuffix: .adoc]
 
 == Table des matieres
 
