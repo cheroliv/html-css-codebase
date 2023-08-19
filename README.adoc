@@ -7,5 +7,4 @@
 * Intermédiaire HTML & CSS
 
 
-<<chemin-vers-document2#nom-de-la-section,Texte du lien>>
-
+link:01_début-html/début-html.adoc[Texte du lien]
