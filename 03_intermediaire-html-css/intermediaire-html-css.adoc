@@ -4,7 +4,7 @@ link:../README.adoc#toc[Table des matieres]
 
 https://semantics-selectors.css.education/
 
-[#début_intermediaire_html-css]
+[#début_intermediaire-html-css]
 
 Table of Contents
 
