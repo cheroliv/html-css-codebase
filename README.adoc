@@ -1,5 +1,5 @@
 = Introduction à HTML & CSS3
-// ifdef::env-name[:relfilesuffix: .adoc]
+ifdef::env-name[:relfilesuffix: .adoc]
 
 == Table des matieres
 
@@ -8,4 +8,4 @@
 * Intermédiaire HTML & CSS
 
 
-link:01_début-html/début_html.adoc[Texte du lien]
+link:01_début-html/début_html{relfilesuffix}[Texte du lien]
