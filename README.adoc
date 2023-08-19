@@ -6,3 +6,6 @@
 * Début CSS
 * Intermédiaire HTML & CSS
 
+
+<<chemin-vers-document2#nom-de-la-section,Texte du lien>>
+
