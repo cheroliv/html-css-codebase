@@ -1,5 +1,6 @@
 = Introduction à HTML & CSS3
 
+[#toc]
 == Table des matieres
 
 * link:01_début-html/début_html.adoc#début_html[Début HTML]

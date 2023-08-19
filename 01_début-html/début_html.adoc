@@ -155,4 +155,5 @@ index.html
 </html>
 ----
 
-//[[toc]] [[next section]]
+link:../README.adoc#toc[Table des matieres] 
+// [[next section]]
