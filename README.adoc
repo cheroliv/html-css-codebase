@@ -8,4 +8,4 @@ https://cheroliv.github.io/blog/2023/0062_memo_css_post.html[Mémo css, window =
 
 * link:01_début-html/début_html.adoc#début_html[Début HTML]
 * link:02_début-css/début_css.adoc#début_css[Début CSS]
-* Intermédiaire HTML & CSS
+* link:03_intermediaire_html-css/intermediaire_html-css.adoc#début_intermediaire_html-css[Intermédiaire HTML & CSS]
