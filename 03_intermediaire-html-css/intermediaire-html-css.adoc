@@ -64,127 +64,134 @@ https://semantics-selectors.css.education/ch3.html[Content Sectioning] +
 ::after
 
 === CSS Reset box-sizing
-Let's introduce the box-sizing CSS property and explains why most CSS frameworks reset the value from content-box to border-box. When box-sizing is set to border-box, an element's overall width will include the element's content, padding, and border. This makes element sizing and layout more predictable. The ::before and ::after pseudo-elements are also introduced in this segment.
+Présentons la propriété CSS box-sizing et expliquons pourquoi la plupart des frameworks CSS réinitialisent la valeur de content-box à border-box. Lorsque box-sizing est défini sur border-box, la largeur globale d'un élément inclura le contenu, le rembourrage et la bordure de l'élément. Cela rend le dimensionnement et la disposition des éléments plus prévisibles. Les pseudo-éléments ::before et ::after sont également introduits dans ce segment.
 
 === CSS Terminology
-Let's spend a few minutes explaining some common CSS terms, including rules, selectors, and declaration blocks.
+Passons quelques minutes à expliquer certains termes CSS courants, notamment les règles, les sélecteurs et les blocs de déclaration.
 
 === Class, ID, & Descendant Selectors
-Let's review common CSS selectors, including selecting by class, id, and descendant. When styles are applied, they will be inherited by any nested elements unless a more specific rule is applied.
+Passons en revue les sélecteurs CSS courants, y compris la sélection par classe, identifiant et descendant. Lorsque des styles sont appliqués, ils seront hérités par tous les éléments imbriqués à moins qu'une règle plus spécifique ne soit appliquée.
 
 === Parent-Child & Siblings Selectors
-Let's take a look at parent-child selectors, general sibling selectors, and adjacent sibling selectors. The first sibling isn't selected with sibling selectors because it does not have a previous sibling. Only sibling elements that follow a sibling are selected.
+Examinons les sélecteurs parent-enfant, les sélecteurs frères généraux et les sélecteurs frères adjacents. Le premier frère n'est pas sélectionné avec les sélecteurs de frère car il n'a pas de frère précédent. Seuls les éléments frères qui suivent un frère sont sélectionnés.
 
 === Attribute Selectors
-Let's take a look at attribute selectors, which provide options for selecting elements based on an attribute text value. There are selectors for specifying an exact match or partial match based on the text's beginning, ending, or a substring it may contain.
+Examinons les sélecteurs d'attributs, qui fournissent des options pour sélectionner des éléments en fonction d'une valeur de texte d'attribut. Il existe des sélecteurs pour spécifier une correspondance exacte ou partielle en fonction du début, de la fin du texte ou d'une sous-chaîne qu'il peut contenir.
 
 === Attribute Selectors Exercise
-Now Let's instructe to style any link to a PDF file by adding the string "(PDF)" to the end of the link's text.
+Instruisons maintenant de styliser n'importe quel lien vers un fichier PDF en ajoutant la chaîne "(PDF)" à la fin du texte du lien.
 
 === Attribute Selectors Solution
-Let's demonstrate the solution to the Attribute Selector exercise.
+Démontrons la solution à l'exercice de sélection d'attributs.
 
 == Styling Elements
 
 === Ordered & Unordered List Styling
-Let's explain how to use the :first-child, :last-child, :nth-child, and :nth-last-child pseudo selectors. These selectors will style elements based on their position within a parent. It can be a fixed position, like the 6th element, or a pattern like every 3rd element.
+Expliquons comment utiliser les pseudo sélecteurs :first-child, :last-child, :nth-child et :nth-last-child. Ces sélecteurs styliseront les éléments en fonction de leur position dans un parent. Il peut s'agir d'une position fixe, comme le 6ème élément, ou d'un motif comme tous les 3èmes éléments.
 
 === Styling List Item Markers
-Let's style unordered lists with both the list-style-type property and the ::marker pseudo-element. The list-style-type property can be set to any string value, including symbols or emojis. The ::marker pseudo-element helps utilize SVG graphics as the list element marker.
+Stylisons les listes non ordonnées avec à la fois la propriété list-style-type et le pseudo-élément ::marker . La propriété list-style-type peut être définie sur n'importe quelle valeur de chaîne, y compris les symboles ou les emojis. Le pseudo-élément ::marker aide à utiliser les graphiques SVG comme marqueur d'élément de liste.
 
 === Ordered List Styling
-Let's demonstrate how to change the list-style-type property of ordered lists. Preset values are available like upper-roman or lower-Latin.
+Montrons comment modifier la propriété list-style-type des listes ordonnées. Les valeurs prédéfinies sont disponibles comme le haut-romain ou le bas-latin.
 
 === Description Lists & Flexbox
-Let's introduce description lists and styles them using flexbox. Descriptions lists can have a one-to-one or many-to-many relationship between the description term and the description definition elements.
+Introduisons les listes de description et stylisons-les à l'aide de flexbox. Les listes de descriptions peuvent avoir une relation un à un ou plusieurs à plusieurs entre le terme de description et les éléments de définition de description.
 
 === Description Lists & CSS Grid
-Let's use CSS grid to fix the layout issues with description definition elements wrapping to a second row. The <dd> elements can be constrained to the second column with CSS grid.
+Utilisons la grille CSS pour résoudre les problèmes de mise en page avec les éléments de définition de description s'enroulant sur une deuxième ligne. Les éléments <dd> peuvent être contraints à la deuxième colonne avec la grille CSS.
 
 === Menu Lists
-Let's explain that menu lists contain a group of interactive list items. Typically these items carry out an in-page task programmed with JavaScript. The menu element is the parent element for a list item, just like a ul or ol element.
+Expliquons que les listes de menus contiennent un groupe d'éléments de liste interactifs. Généralement, ces éléments exécutent une tâche dans la page programmée avec JavaScript. L'élément menu est l'élément parent d'un élément de liste, tout comme un élément ul ou ol.
 
 === Lists Exercise
-Let's add semantic markup to an ice cream recipe. Once the markup is added, CSS styling should be applied.
+Ajoutons un balisage sémantique à une recette de crème glacée. Une fois le balisage ajouté, le style CSS doit être appliqué.
 
 === Lists Solution
-Let's code the solution to the Lists exercise.
+Codons la solution de l'exercice Listes.
 
 == Semantic HTML
 
 === Semantic HTML Elements
-Let's introduce the semantic elements used when sectioning off content on a page. Elements like header, footer, and section might appear multiple times throughout a page, depending on its architecture. Other elements like main should only appear once because they specify an area of focus.
+Introduisons les éléments sémantiques utilisés lors du découpage du contenu d'une page. Des éléments tels que l'en-tête, le pied de page et la section peuvent apparaître plusieurs fois sur une page, en fonction de son architecture. D'autres éléments comme main ne doivent apparaître qu'une seule fois car ils spécifient un domaine d'intérêt.
 
 === Content Sectioning
-Let's walk through how to apply semantic HTML to a page. A header and footer are applied. The links at the top are wrapped with a nav element. The figure and figcapture are used with the img element.
+Voyons comment appliquer le HTML sémantique à une page. Un en-tête et un pied de page sont appliqués. Les liens en haut sont entourés d'un élément nav. La figure et figcapture sont utilisées avec l'élément img.
 
 === Content Sectioning Exercise
-Let's section the provided HTML using semantic elements.
+Séparons le HTML fourni en utilisant des éléments sémantiques.
+
 
 === Content Sectioning Solution
-Let's demonstrate the solution to the Content Sectioning exercise.
+Démontrons la solution à l'exercice de sectionnement de contenu.
+
 
 == Pseudo-Classes
 
 === Level 4 Pseudo-Class Selectors
-Let's introduce the :is(), :where(), :has(), and :not() pseudo-class selectors. Unlike older pseudo-classes like :hover or :before, these new level 4 selectors evaluate a condition to apply CSS styling. The condition is another CSS selector placed inside the parentheses.
+Introduisons les sélecteurs de pseudo-classe :is(), :where(), :has() et :not(). Contrairement aux anciennes pseudo-classes comme :hover ou :before, ces nouveaux sélecteurs de niveau 4 évaluent une condition pour appliquer le style CSS. La condition est un autre sélecteur CSS placé entre parenthèses.
+
 
 === Styling Without Classes Exercise
-Let's style a web page without using any CSS classes.
+Stylisons une page Web sans utiliser de classes CSS.
+
 
 === Styling Without Classes Solution
-Let's demonstrate one possible solution to the Styling Without Classes exercise.
-Inheritance
+Démontrons une solution possible à l'exercice Styling Without Classes.
+Héritage
 
 == What Inherits in CSS
-Let's outline the major components of CSS, which include inheritance, specificity, and the cascade. Inheritance allows styling applied to a parent element to be passed down to descendants unless specifically overridden.
+Décrivons les principaux composants de CSS, qui incluent l'héritage, la spécificité et la cascade. L'héritage permet au style appliqué à un élément parent d'être transmis aux descendants à moins qu'il ne soit spécifiquement remplacé.
 
 === CSS Inheritance Demo
-Let's demonstrate CSS inheritance and how some properties are inherited while others are not. The :root selector, the difference between display:none; and visibility:hidden:, and the :any-link pseudo-class are also discussed in this segment.
+Démontrons l'héritage CSS et comment certaines propriétés sont héritées alors que d'autres ne le sont pas. Le sélecteur :root, la différence entre display:none; et visibilité:hidden:, et la pseudo-classe :any-link sont également abordées dans ce segment.
 
 === Inheritance property & Values Demo
-Let's demonstrate that properties with no inheritance can be forced to inherit using the "inherit" value. For example, setting border: inherit; will cause the element to inherit the border value from its parent. Canceling inheritance with the revert, initial, and unset keywords are also demonstrated in this segment.
+Démontrons que les propriétés sans héritage peuvent être forcées à hériter en utilisant la valeur "inherit". Par exemple, définir border: inherit; entraînera l'élément à hériter de la valeur de bordure de son parent. L'annulation de l'héritage avec les mots-clés revert, initial et unset est également illustrée dans ce segment.
 
 == Specificity
 
 === CSS Specificity Overview
-Let's explain how specificity is calculated. The formula counts the number of IDs, classes, and type selectors. A rule with a higher specificity will override less specific rules.
+Expliquons comment la spécificité est calculée. La formule compte le nombre d'ID, de classes et de sélecteurs de type. Une règle avec une spécificité plus élevée remplacera les règles moins spécifiques.
 
 === CSS Specificity Demo
-Let's use a CodePen demo to gradually add more specificity to a CSS selector. This demonstrates how class selectors override element selectors and ID selectors override class selectors. This segment also briefly discusses inheritance and the cascade's effects on specificity.
+Utilisons une démo CodePen pour ajouter progressivement plus de spécificité à un sélecteur CSS. Cela montre comment les sélecteurs de classe remplacent les sélecteurs d'élément et les sélecteurs d'ID remplacent les sélecteurs de classe. Ce segment aborde également brièvement l'hérédité et les effets de la cascade sur la spécificité.
 
 
 === Combining Inheritance & Specificity
-Let's demonstrate how specificity alone may not be enough to override some rules. Leveraging both specificity and inheritance is sometimes necessary to properly style descendant elements.
+Démontrons comment la spécificité seule peut ne pas suffire à passer outre certaines règles. Tirer parti à la fois de la spécificité et de l'héritage est parfois nécessaire pour styliser correctement les éléments descendants.
+
 
 === Specificity & Inheritance Exercise
-Let's explain the CSS rules and calculate the specificity of each rule.
+Expliquons les règles CSS et calculons la spécificité de chaque règle.
+
 
 === Specificity & Inheritance Solution
-Let's explain the solution to the Specificity & Inheritance exercise.
+Expliquons la solution de l'exercice Spécificité & Héritage.
 Cascade
 
 == Understanding the Cascade
-Let's explain the cascade is responsible for identifying all the relevant styles to apply to the selection. This includes media queries and @supports statements.
+Expliquons que la cascade se charge d'identifier tous les styles pertinents à appliquer à la sélection. Cela inclut les requêtes multimédias et les déclarations @supports.
 
 === Cascade Overview
-Let's break down how the cascade determines the relevant styles based on the style's origin and the level of importance.
+Voyons comment la cascade détermine les styles pertinents en fonction de l'origine du style et du niveau d'importance.
 
 === Cascade Code Demo
-Let's demonstrate how the cascade is affected by external stylesheets. External stylesheets have the same level of importance as CSS in a style block as long as the selectors have equal specificity. The !important keyword is also demonstrated in this segment.
+Montrons comment la cascade est affectée par les feuilles de style externes. Les feuilles de style externes ont le même niveau d'importance que CSS dans un bloc de style tant que les sélecteurs ont la même spécificité. Le mot-clé !important est également démontré dans ce segment.
 
 === CSS Cascade in Dev Tools
-Let's use the browser developer tools to inspect the CSS styling applied to a specific element on the page. Browser developer tools organize the style in order of specificity and will visually indicate which styles are overridden by more specific rules.
+Utilisons les outils de développement du navigateur pour inspecter le style CSS appliqué à un élément spécifique de la page. Les outils de développement de navigateur organisent le style par ordre de spécificité et indiquent visuellement quels styles sont remplacés par des règles plus spécifiques.
 
 == Layers
 
 === Layer & The Cascade
-Let's explain the @layer CSS rule is used to declare a cascade layer and can also define the order of precedence when multiple cascade layers are present. Layers represent a way to group a set of styles and treat them with a specific level of importance.
+Expliquons que la règle CSS @layer est utilisée pour déclarer une couche en cascade et peut également définir l'ordre de priorité lorsque plusieurs couches en cascade sont présentes. Les calques représentent un moyen de regrouper un ensemble de styles et de les traiter avec un niveau d'importance spécifique.
+
 
 === Working with Layers
-Let's demonstrate how to import an external CSS file as a layer into another style sheet. When working with CSS layers, styling conflicts can occur. A few techniques to override specificity issues are covered in this segment.
+Montrons comment importer un fichier CSS externe en tant que couche dans une autre feuille de style. Lorsque vous travaillez avec des calques CSS, des conflits de style peuvent survenir. Quelques techniques pour contourner les problèmes de spécificité sont abordées dans ce segment.
 
 === Managing Multiple Layers
-Let's demonstrate how to manage multiple layers within a CSS file. Regardless of where the layers are declared, layer priority can be established using the @layer rule and ordering the layer names from least important to most important.
+Montrons comment gérer plusieurs couches dans un fichier CSS. Quel que soit l'endroit où les couches sont déclarées, la priorité des couches peut être établie à l'aide de la règle @layer et en classant les noms des couches du moins important au plus important.
 
 link:../README.adoc#toc[Table des matieres] 
