@@ -6,25 +6,26 @@ https://semantics-selectors.css.education/
 
 [#début_intermediaire-html-css]
 
-Table of Contents
+HTML aperçu
 
-Introduction
-Let's begin the course by sharing a few misconceptions about HTML and CSS and outlining the benefits of writing clean, semantic code. The course will utilize CodePen for most of the exercises. Links to all examples and resources can be found on the course website.
+https://dev.to/steady5063/cleaner-more-accessible-code-with-html-1ghd[cleaner-more-accessible-code-with-html]
 
-HTML Overview
 
-HTML Elements Vocabulary
-HTML identifies the elements of the web page and is not responsible for the display of the page. CSS styling will control the presentation of the HTML content. The MDN web docs are a valuable reference guide for viewing information about each element.
+Les lists et selecteurs HTML
+Montrons des listes ordonnées et non ordonnées. Ce sont deux des quatre types de liste en HTML. Les deux autres types de listes sont des listes de description pour l'appariement nom-valeur et des listes interactives pour les groupes de boutons.
 
-HTML Lists
-Jen demonstrates ordered and unordered lists. They are two of the four list types in HTML. The other two lists types are description lists for name-value pairing and interactive lists for button groups.
+https://codepen.io/collection/waZyxY[html css lists & selectors] +
 
-ordered list:
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/ul[mdn list doc] +
+
+[source,html]
+----
+<!-- ordered list: -->
 <ol>
     <li></li>
 </ol>
 
-reversed ordered list
+<!-- reversed ordered list: -->
 <ol reversed>
     <li></li>
 </ol>
@@ -37,16 +38,26 @@ reversed ordered list
     <li></li>
 </ol>
 
-
-nested list:
+<!--nested list: -->
 <ul>
     <li></li>
 </ul>
 
+<!-- Ordered and unordered list styling with pseudoclasses -->
+
+----
+
+Exercice: +
+https://codepen.io/CherOliv/pen/wvRvbrP[styliser la page], +
+https://codepen.io/CherOliv/pen/NWeWVay[Solution exo] +
+
+
 
 CSS Overview
 
-https://www.w3schools.com/css/css_boxmodel.asp
+https://www.w3schools.com/css/css_boxmodel.asp[css box model] +
+
+https://semantics-selectors.css.education/ch3.html[Content Sectioning] +
 
 pseudo-elements:
 ::before
