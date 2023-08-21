@@ -47,7 +47,8 @@ https://developer.mozilla.org/fr/docs/Web/HTML/Element/ul[mdn list doc] +
 
 ----
 
-=== Exercice: +
+=== Exercice:
+
 https://codepen.io/CherOliv/pen/wvRvbrP[styliser la page], +
 https://codepen.io/CherOliv/pen/NWeWVay[Solution exo] +
 
